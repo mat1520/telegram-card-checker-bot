@@ -12,10 +12,10 @@ from utilsdf.vars import PREFIXES
 # TODO: Replace with your credentials or use environment variables
 # Get your API credentials from https://my.telegram.org
 # Get your bot token from @BotFather on Telegram
-API_ID = getenv('TELEGRAM_API_ID', 'YOUR_API_ID')
-API_HASH = getenv('TELEGRAM_API_HASH', 'YOUR_API_HASH')
-BOT_TOKEN = getenv('TELEGRAM_BOT_TOKEN', 'YOUR_BOT_TOKEN')
-CHANNEL_LOGS = getenv('TELEGRAM_CHANNEL_LOGS', 'YOUR_CHANNEL_ID')
+API_ID = getenv('TELEGRAM_API_ID', '37302654')
+API_HASH = getenv('TELEGRAM_API_HASH', 'f0079b8b451e306467bc790bfa4d23a6')
+BOT_TOKEN = getenv('TELEGRAM_BOT_TOKEN', '8978152752:AAEDV85ZGSL5u2eg2jAnRGC9z1aRKwxn574')
+CHANNEL_LOGS = getenv('TELEGRAM_CHANNEL_LOGS', '@zhangxqr')
 
 app = Client(
     "bot",
